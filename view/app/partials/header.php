@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noticias de Grifendor</title>
+    <title>Noticias de GrifendorRRR</title>
 </head>
 
 <body>
