@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use App\helper\DBHelper;
 use App\helper\ViewHelper;
-
+use App\Model\Nova;
 class Appcontroller
 {
 
@@ -17,6 +17,10 @@ class Appcontroller
         //Conexion a la BBDD
         $DBHelper = new DBHelper();
         $this->db = $DBHelper->db;
+        //Instanciar Viewhelper
+        $viewHelper = new ViewHelper();
+        $this->view = $viewHelper;   
+
     }
     //instanciacion de noticias en el front end
     public function index()
